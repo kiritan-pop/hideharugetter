@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # ex.)
-# python hideharu.py --acct="kiritan,kiri_bot01,sun_pillar"
-# python getimg.py --hashtag="きりぼっとギャグ,ジェバンニチャレンジ"
+# python hideharugetter.py --hashtag="情報処理部今日のまとめ,野菜観察日記"
 
 from mastodon import Mastodon
 import re, os, json
