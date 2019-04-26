@@ -26,7 +26,7 @@ def get_args():
     return args
 
 #######################################################
-# トゥート内容の標準化・クレンジング
+# トゥート内容のタグ展開、プレーンテキスト化
 def content_cleanser(content):
     tmp = BeautifulSoup(content.replace("<br />", "___R___").strip(), 'lxml')
     hashtags = []
